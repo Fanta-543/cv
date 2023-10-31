@@ -33,8 +33,6 @@
 
   h1 {
       font-size: 1.5em;
-      font-weight: 300;
-      color: red;
   }
 
   .sectiongauche {
@@ -51,12 +49,11 @@
   }
 
   .sectiondroite {
-
       padding: 2%;
       margin: 2rem;
-      line-height: normal;
+      font-style: normal;
       font-size: medium;
-      background-color: #E0FFFF;
+      background-color:azure;
   }
 
   h3 {
@@ -64,12 +61,11 @@
   }
 
   .sectiondroite1 {
-
-      padding: 1%;
+      padding: 2%;
       margin: 2rem;
       font-style: normal;
       font-size: medium;
-      background-color: #E0FFFF;
+      background-color: azure;
   }
 
   h4 {
@@ -81,13 +77,24 @@
       margin: 2rem;
       font-style: normal;
       font-size: medium;
-      background-color: #E0FFFF;
+      background-color: azure;
   }
 
   h5 {
       font-size: 1.5em;
   }
 
+  .sectiondroite3 {
+      padding: 1%;
+      margin: 2rem;
+      font-style: normal;
+      font-size: medium;
+      background-color: azure;
+  }
+
+  h6 {
+      font-size: 1.5em;
+  }
 
   @media screen and (max-width:680) {
       body {
