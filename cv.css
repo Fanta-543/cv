@@ -1,0 +1,165 @@
+  cv.css * {
+      margin: 0;
+      padding: 0;
+  }
+
+  body {
+      width: 100%;
+      font-family: Roboto;
+      margin: 0%;
+  }
+
+  .page {
+      display: flex;
+      padding: 10%;
+      margin: 12rem;
+      border: solid;
+
+  }
+
+  .photo {
+      padding: 0%;
+      margin: 0%;
+  }
+
+  .info {
+
+      padding: 0%;
+      margin: 1rem;
+      font-style: normal;
+      font-size: medium;
+      background-color: mediumaquamarine;
+  }
+
+  h1 {
+      font-size: 1.5em;
+  }
+
+  .sectiongauche {
+
+      padding: 0%;
+      margin: 1rem;
+      line-height: normal;
+      font-style: normal;
+      font-size: medium;
+  }
+
+  h2 {
+      font-size: 1.5em;
+  }
+
+  .sectiondroite {
+
+      padding: 2%;
+      margin: 2rem;
+      line-height: normal;
+      font-size: medium;
+      background-color: #E0FFFF;
+  }
+
+  h3 {
+      font-size: 1.5em;
+  }
+
+  .sectiondroite1 {
+
+      padding: 1%;
+      margin: 2rem;
+      font-style: normal;
+      font-size: medium;
+      background-color: #E0FFFF;
+  }
+
+  h4 {
+      font-size: 1.5em;
+  }
+
+  .sectiondroite2 {
+      padding: 1%;
+      margin: 2rem;
+      font-style: normal;
+      font-size: medium;
+      background-color: #E0FFFF;
+  }
+
+  h5 {
+      font-size: 1.5em;
+  }
+
+
+  @media screen and (max-width:680) {
+      body {
+          display: none;
+          background-color: orange;
+          width: 60%;
+
+      }
+  }
+
+  .page {
+      flex-direction: row;
+      padding: 0%;
+      margin: 25%
+  }
+
+  .info {
+      flex-direction: row;
+  }
+
+  .sectiongauche {
+      flex-direction: row;
+
+  }
+
+  .sectiondroite {
+      flex-direction: row;
+  }
+
+  .sectiondroite1 {
+      flex-direction: row;
+  }
+
+  .sectiondroite2 {
+      flex-direction: row;
+  }
+
+  @media screen and (min-width:679px)and (max-width: 1279px) {
+
+      body {
+
+          background-color: aqua;
+      }
+
+      .page {
+          flex-direction: column-reverse;
+          padding: 0%;
+          margin: 5rem 3rem;
+      }
+
+      .info {
+          flex-direction: column-reverse;
+          padding: 2%;
+          margin: 1rem;
+
+      }
+
+      .sectiongauche {
+          flex-direction: column-reverse;
+
+      }
+
+      .sectiondroite {
+          flex-direction: column-reverse;
+
+      }
+
+      .sectiondroite1 {
+          flex-direction: column-reverse;
+
+      }
+
+      .sectiondroite2 {
+          flex-direction: column-reverse;
+
+      }
+  }
